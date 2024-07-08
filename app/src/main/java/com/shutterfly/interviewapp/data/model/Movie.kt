@@ -1,4 +1,4 @@
-package com.shutterfly.interviewapp.data
+package com.shutterfly.interviewapp.data.model
 
 data class Movie(
     val id: String,

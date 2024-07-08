@@ -1,8 +1,8 @@
 package com.shutterfly.interviewapp.domain
 
-import com.shutterfly.interviewapp.data.Movie
-import com.shutterfly.interviewapp.data.ResultWrapper
-import com.shutterfly.interviewapp.repository.MovieRepository
+import com.shutterfly.interviewapp.data.model.Movie
+import com.shutterfly.interviewapp.common.ResultWrapper
+import com.shutterfly.interviewapp.data.repository.MovieRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

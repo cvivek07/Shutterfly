@@ -1,4 +1,4 @@
-package com.shutterfly.interviewapp.api
+package com.shutterfly.interviewapp.data.network
 
 import okhttp3.Interceptor
 import okhttp3.Response

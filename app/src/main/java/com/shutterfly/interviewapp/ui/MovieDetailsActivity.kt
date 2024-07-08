@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.shutterfly.interviewapp.data.Movie
+import com.shutterfly.interviewapp.data.model.Movie
 import com.shutterfly.interviewapp.R
-import com.shutterfly.interviewapp.data.ResultWrapper
+import com.shutterfly.interviewapp.common.ResultWrapper
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.shutterfly.interviewapp.data
+package com.shutterfly.interviewapp.common
 
 sealed class ResultWrapper<T> {
     data class Loading<T>(val data: T? = null) : ResultWrapper<T>()

@@ -1,7 +1,6 @@
-package com.shutterfly.interviewapp.api
+package com.shutterfly.interviewapp.data.network
 
-import com.shutterfly.interviewapp.data.Movie
-import retrofit2.Response
+import com.shutterfly.interviewapp.data.model.Movie
 import retrofit2.http.GET
 import retrofit2.http.Path
 

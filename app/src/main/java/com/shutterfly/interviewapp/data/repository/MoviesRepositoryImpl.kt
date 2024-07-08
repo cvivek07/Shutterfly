@@ -1,7 +1,7 @@
-package com.shutterfly.interviewapp.repository
+package com.shutterfly.interviewapp.data.repository
 
-import com.shutterfly.interviewapp.api.MovieService
-import com.shutterfly.interviewapp.data.ResultWrapper
+import com.shutterfly.interviewapp.data.network.MovieService
+import com.shutterfly.interviewapp.common.ResultWrapper
 import com.shutterfly.interviewapp.util.DispatcherProvider
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow

@@ -1,9 +1,9 @@
 package com.shutterfly.interviewapp.di
 
-import com.shutterfly.interviewapp.api.ApiKeyInterceptor
-import com.shutterfly.interviewapp.repository.MovieRepository
-import com.shutterfly.interviewapp.repository.MovieRepositoryImpl
-import com.shutterfly.interviewapp.api.MovieService
+import com.shutterfly.interviewapp.data.network.ApiKeyInterceptor
+import com.shutterfly.interviewapp.data.repository.MovieRepository
+import com.shutterfly.interviewapp.data.repository.MovieRepositoryImpl
+import com.shutterfly.interviewapp.data.network.MovieService
 import com.shutterfly.interviewapp.domain.GetMovieDetailsUseCase
 import com.shutterfly.interviewapp.util.DefaultDispatcherProvider
 import com.shutterfly.interviewapp.util.DispatcherProvider
