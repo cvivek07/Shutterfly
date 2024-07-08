@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.shutterfly.interviewapp.api.AppModule
+import com.shutterfly.interviewapp.di.AppModule
 import com.shutterfly.interviewapp.data.Movie
 import com.shutterfly.interviewapp.api.MovieRepository
 import kotlinx.coroutines.launch

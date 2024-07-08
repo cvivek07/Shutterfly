@@ -1,5 +1,9 @@
-package com.shutterfly.interviewapp.api
+package com.shutterfly.interviewapp.di
 
+import com.shutterfly.interviewapp.api.ApiKeyInterceptor
+import com.shutterfly.interviewapp.api.MovieRepository
+import com.shutterfly.interviewapp.api.MovieRepositoryImpl
+import com.shutterfly.interviewapp.api.MovieService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
